@@ -1,4 +1,4 @@
-root
+```root
 ├── apps
 │   ├── client-portal
 │   │   ├── app
@@ -182,3 +182,4 @@ root
     ├── onboarding
     ├── api-guidelines
     └── decision-records
+```
