@@ -1,0 +1,77 @@
+.background {
+  background-image: url('../../public/images/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #005523;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 520px;
+}
+.title {
+  margin: 5px 0px;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 110%;
+  color: white;
+  text-align: center;
+}
+.message {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.container button {
+  margin-top: 20px;
+  padding: 14px 24px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0a0d14;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  white-space: nowrap;
+}
+
+/* === media Query for Mobile Devices (max-width: 768px) === */
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .message {
+    font-size: 15px;
+  }
+
+  .container button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
