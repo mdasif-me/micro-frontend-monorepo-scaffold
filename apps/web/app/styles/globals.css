@@ -1,7 +1,13 @@
-body {
-  font-family: var(--font-satoshi), sans-serif;
+@import 'tailwindcss';
+
+html[lang='bn'] {
+  --font-ui: var(--font-bangla);
 }
 
-html[lang='bn'] body {
-  font-family: var(--font-bangla), sans-serif;
+html[lang='en'] {
+  --font-ui: var(--font-satoshi);
+}
+
+body {
+  font-family: var(--font-ui), sans-serif;
 }

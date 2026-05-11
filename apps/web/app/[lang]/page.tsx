@@ -16,5 +16,10 @@ export default async function Page({ params }: Props) {
 
   const dict = await getDictionary(lang);
 
-  return <button>{dict.home.title}</button>;
+  return (
+    <div>
+      <h1>{dict.home.title}</h1>
+      <p>{dict.home.description}</p>
+    </div>
+  );
 }
