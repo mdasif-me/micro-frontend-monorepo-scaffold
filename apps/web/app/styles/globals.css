@@ -1,0 +1,7 @@
+body {
+  font-family: var(--font-satoshi), sans-serif;
+}
+
+html[lang='bn'] body {
+  font-family: var(--font-bangla), sans-serif;
+}
