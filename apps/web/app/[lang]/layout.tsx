@@ -9,7 +9,6 @@ export default async function LangLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-
   return (
     <html lang={lang} className={`${satoshi.variable} ${bangla.variable}`}>
       <body>{children}</body>
