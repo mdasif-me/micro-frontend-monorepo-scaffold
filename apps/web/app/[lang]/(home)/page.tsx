@@ -21,7 +21,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <div>
-      <HeroComponent />
+      <HeroComponent params={params} />
       <h1>{dict.home.title}</h1>
       <p>{dict.home.description}</p>
     </div>
